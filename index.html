@@ -1,0 +1,215 @@
+﻿<!doctype html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <style>
+	body{
+	font: bold 14px verdana;
+	}
+
+header{
+	height: 200px;
+}
+
+.head-logo{
+	text-align: center;
+}
+
+.form{
+	position: absolute;
+	right: 53px;
+	top: 100px;
+	float: right;
+	margin-right: 57px;
+	font: normal 12px Arial;
+}
+
+.form input[type="search"]{
+	padding: 3px;
+}
+
+.nav-top-menu{
+	margin: 0 auto;
+	width: 425px;
+	}
+
+.top-menu{
+	overflow: hidden;
+	padding: 0;
+    width: 425px;
+	}
+
+.top-menu li{
+	list-style: none;
+	padding: 7px 12px;
+	margin-right: 2px;
+	background: #724E26;
+	float: left;
+	}
+
+.top-menu li a{
+	display: block;
+	color:  #fff;
+	text-decoration: none;
+	}
+
+.aside-nav{
+	display: block;
+	margin-left: 53px;
+	float:left;
+	width: 79px;
+}
+
+.aside-menu{
+	padding-left: 1px;
+    width: 79px;
+}
+
+.aside-menu li{
+	display: block;
+	padding: 7px;
+	list-style: none;
+	width: 76px;
+	}
+
+.main-content{
+	margin-left: 142px;
+	width: 893px;
+	padding: 17px;
+	background: hsla(132,90%,35%, 0.7);
+	border-radius: 7px;
+	box-shadow: 7px 7px 3px #ccc;
+}
+
+footer{
+	clear: both;
+	padding-left: 53px;
+	padding-bottom: 17px;
+	padding-top: 17px;
+	}
+
+@media screen and (max-width: 1200px){
+	
+	body{
+		font-size: 18px;
+	}
+
+	.aside-nav, .main-content{
+	float: left;
+}
+
+.aside-nav{
+	margin: 2px 0 0 0;
+	width: 8%;
+}
+
+.aside-menu{
+	width: 100%;
+}
+
+.main-content{
+	width: 68%;
+	margin: 2px 0 0 30px;
+}
+
+.columns{
+	-moz-column-count: 2; /* Firefox */
+	-webkit-column-count: 2; /* Safari and Chrome */
+	column-count: 2;
+	-moz-column-gap: 50px; /* Firefox */
+	-webkit-column-gap:50px; /* Safari and Chrome */
+	column-gap: 50%;
+	-moz-column-rule: 1px dotted black; /* Firefox */
+	-webkit-column-rule: 1px dotted #000; /* Safari and Chrome */
+	column-rule: 1px dotted #000;
+	
+}
+
+.nav-top-menu{
+	position: absolute;
+	right: 0;
+	width: 14%;
+	margin: 2px 0 0 0;
+}
+
+.top-menu{
+	margin: 0;
+	width: 98%;
+}
+
+.top-menu li{
+	display: block;
+	float: none;
+	width: 78px;
+}
+
+}
+
+@media screen and (max-width: 480px){
+	body{
+		font-size: 10px;
+	}
+	
+	.form{
+		float: none;
+		width: 100%;
+	}
+	
+	.nav-top-menu, .main-content, .aside-nav{
+		float: none;
+		width: 100%;
+	}
+	
+	.top-menu li{
+		float: left;
+	}
+}
+        </style>
+    </head>
+    <body>
+	<header role="banner">
+    	<h1 class="head-logo">Заголовок</h1>
+        <form action="#" class="form">
+            <input type="search" name="search" placeholder="Пойск по сайту">
+            <input type="submit" name="submit" value="Найти">
+        </form>
+    </header>
+    <nav class="nav-top-menu">
+        	<ul class="top-menu">
+        		<li><a href="#">menu 1</a></li>
+        		<li><a href="#">menu 2</a></li>
+        		<li><a href="#">menu 3</a></li>
+        		<li><a href="#">menu 4</a></li>
+        		<li><a href="#">menu 5</a></li>
+        	</ul>
+        </nav>
+        <aside class="aside-nav">
+           	<ul class="aside-menu">
+        		<li><a href="#">menu 1</a></li>
+           		<li><a href="#">menu 2</a></li>
+           		<li><a href="#">menu 3</a></li>
+           		<li><a href="#">menu 4</a></li>
+           	</ul>
+    </aside>
+    <main role="main" class="main-content">
+       	<div class="columns">
+             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam laudantium ipsa consectetur, explicabo repellat, sit, numquam vitae fugit eos quam praesentium nostrum facilis consequatur hic quo odio quasi dolorum corporis.</p>
+             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam laudantium ipsa consectetur, explicabo repellat, sit, numquam vitae fugit eos quam praesentium nostrum facilis consequatur hic quo odio quasi dolorum corporis.</p>
+             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam laudantium ipsa consectetur, explicabo repellat, sit, numquam vitae fugit eos quam praesentium nostrum facilis consequatur hic quo odio quasi dolorum corporis.</p>
+             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam laudantium ipsa consectetur, explicabo repellat, sit, numquam vitae fugit eos quam praesentium nostrum facilis consequatur hic quo odio quasi dolorum corporis.</p>
+             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam laudantium ipsa consectetur, explicabo repellat, sit, numquam vitae fugit eos quam praesentium nostrum facilis consequatur hic quo odio quasi dolorum corporis.</p>
+             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam laudantium ipsa consectetur, explicabo repellat, sit, numquam vitae fugit eos quam praesentium nostrum facilis consequatur hic quo odio quasi dolorum corporis.</p>
+             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam laudantium ipsa consectetur, explicabo repellat, sit, numquam vitae fugit eos quam praesentium nostrum facilis consequatur hic quo odio quasi dolorum corporis.</p>
+             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam laudantium ipsa consectetur, explicabo repellat, sit, numquam vitae fugit eos quam praesentium nostrum facilis consequatur hic quo odio quasi dolorum corporis.</p>
+             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam laudantium ipsa consectetur, explicabo repellat, sit, numquam vitae fugit eos quam praesentium nostrum facilis consequatur hic quo odio quasi dolorum corporis.</p>
+        </div>
+    </main>
+    <footer>
+       	&copy;
+       <address>
+         	Нижний Новгород,...
+       </address>
+    </footer>
+    </body>
+</html>
